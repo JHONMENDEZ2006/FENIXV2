@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) =
 try {
 let vn = './media/menu.mp3'
 let pp = imagen4
-let img = await(await fetch('https://www.paidmembershipspro.com/wp-content/uploads/2017/07/PayPal-Express.png')).buffer()
+let img = await(await fetch('https://assets.mofoprod.net/network/images/discord.original.jpg')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
@@ -26,15 +26,15 @@ ${(conn.user.jid == global.conn.user.jid ? '' : `Jadibot de: https://wa.me/${glo
 ${readMore}
 *<𝕀ℕ𝔽𝕆ℝ𝕄𝔸ℂ𝕀𝕆ℕ 𝔻𝔼𝕃 𝔹𝕆𝕋/>*
 
-° ඬ ⃟ ♡ _${usedPrefix}grupos_
-° ඬ ⃟ ♡_${usedPrefix}estado_
-° ඬ ⃟ ♡ _${usedPrefix}infobot_
-° ඬ ⃟ ♡ _${usedPrefix}speedtest_
-° ඬ ⃟ ♡ _${usedPrefix}donar_
-° ඬ ⃟ ♡ _${usedPrefix}grouplist_
-° ඬ ⃟ ♡ _${usedPrefix}owner_
-° ඬ ⃟ ♡ _${usedPrefix}script_
-° ඬ ⃟ ♡ _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+° ඬ ⃟  ♡ _${usedPrefix}grupos_
+° ඬ ⃟  ♡_${usedPrefix}estado_
+° ඬ ⃟  ♡ _${usedPrefix}infobot_
+° ඬ ⃟  ♡ _${usedPrefix}speedtest_
+° ඬ ⃟  ♡ _${usedPrefix}donar_
+° ඬ ⃟  ♡ _${usedPrefix}grouplist_
+° ඬ ⃟  ♡ _${usedPrefix}owner_
+° ඬ ⃟  ♡ _${usedPrefix}script_
+° ඬ ⃟  ♡ _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 
 *<𝕌ℕ𝔼 𝕌ℕ 𝔹𝕆𝕋 𝔸 𝕋𝕌 𝔾ℝ𝕌ℙ𝕆/>*
 
