@@ -16,7 +16,7 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-*ミ💖 𝙷𝙾𝙻𝙰 ✨${taguser}✨, 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝙴𝙻 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙳𝙴 𝚃𝙷𝙴 𝙼𝚈𝚂𝚃𝙸𝙲 - 𝙱𝙾𝚃 💖彡*
+*ミ♡ 𝙷𝙾𝙻𝙰 ❤️${taguser}❤️, 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝙴𝙻 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙳𝙴 𝕱é𝖓𝖎𝖝 𝖇𝖔𝖙 - 𝙱𝙾𝚃彡*
 
 *📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}*
 *📈 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}*
@@ -26,15 +26,15 @@ ${(conn.user.jid == global.conn.user.jid ? '' : `Jadibot de: https://wa.me/${glo
 ${readMore}
 *<𝕀ℕ𝔽𝕆ℝ𝕄𝔸ℂ𝕀𝕆ℕ 𝔻𝔼𝕃 𝔹𝕆𝕋/>*
 
-° ඬ ⃟ 💟 _${usedPrefix}grupos_
-° ඬ ⃟ 💟 _${usedPrefix}estado_
-° ඬ ⃟ 💟 _${usedPrefix}infobot_
-° ඬ ⃟ 💟 _${usedPrefix}speedtest_
-° ඬ ⃟ 💟 _${usedPrefix}donar_
-° ඬ ⃟ 💟 _${usedPrefix}grouplist_
-° ඬ ⃟ 💟 _${usedPrefix}owner_
-° ඬ ⃟ 💟 _${usedPrefix}script_
-° ඬ ⃟ 💟 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+° ඬ ⃟ ♡ _${usedPrefix}grupos_
+° ඬ ⃟ ♡_${usedPrefix}estado_
+° ඬ ⃟ ♡ _${usedPrefix}infobot_
+° ඬ ⃟ ♡ _${usedPrefix}speedtest_
+° ඬ ⃟ ♡ _${usedPrefix}donar_
+° ඬ ⃟ ♡ _${usedPrefix}grouplist_
+° ඬ ⃟ ♡ _${usedPrefix}owner_
+° ඬ ⃟ ♡ _${usedPrefix}script_
+° ඬ ⃟ ♡ _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 
 *<𝕌ℕ𝔼 𝕌ℕ 𝔹𝕆𝕋 𝔸 𝕋𝕌 𝔾ℝ𝕌ℙ𝕆/>*
 
@@ -42,9 +42,9 @@ ${readMore}
 
 *<𝕊𝔼ℝ𝔹𝕆𝕋 - 𝕁𝔸𝔻𝕀𝔹𝕆𝕋/>*
 
-° ඬ⃟🤖 _${usedPrefix}serbot_
-° ඬ⃟🤖 _${usedPrefix}stop_
-° ඬ⃟🤖 _${usedPrefix}bots_
+° ඬ⃟😈 _${usedPrefix}serbot_
+° ඬ⃟😈 _${usedPrefix}stop_
+° ඬ⃟😈 _${usedPrefix}bots_
 
 *<𝕁𝕌𝔼𝔾𝕆𝕊/>*
 
@@ -530,10 +530,10 @@ externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: null,
-title: '👑 𝐓𝐇𝐄 𝐌𝐘𝐒𝐓𝐈𝐂 - 𝐁𝐎𝐓 👑',
+title: '♡ 𝕲𝖗𝖚𝖕𝖔 𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑 𝕱é𝖓𝖎𝖝 𝖇𝖔𝖙 -♡',
 body: null,
 thumbnail: img,
-sourceUrl: `https://www.paypal.me/TheShadowBrokers133`
+sourceUrl: `https://chat.whatsapp.com/LdGERDuYf4L4FcNRgSOxc9`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
